@@ -1,0 +1,36 @@
+# node_modules — зависимости
+node_modules/
+
+# dist — результат сборки Vite
+dist/
+
+# лог-файлы
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# кэш и временные файлы
+.cache/
+*.cache
+*.tmp
+
+# системные файлы macOS
+.DS_Store
+
+# настройки IDE
+.vscode/
+.idea/
+
+# файлы окружения
+.env
+.env.*
+
+# тестовые покрытия
+coverage/
+
+# локальные настройки
+*.local
+
+# output TypeScript
+*.tsbuildinfo
